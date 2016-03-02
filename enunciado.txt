@@ -1,0 +1,5 @@
+Se tiene la seccion laboratorios del Departamento informatica sistemas, cada
+Laboratorio tiene administradores y auxiliares, dentro de los auxiliares tenemos
+de dos tipos, los auxiliares con pago y los auxiliares adhonorem(los que no
+reciben alguna remuneracion economica), se te pide un programa que modele
+adecuadamente esta situacion. Ojo esta prohibido el uso de objetos literales.
