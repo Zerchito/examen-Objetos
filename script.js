@@ -39,7 +39,7 @@ Administrador.prototype.verSalario = function(){
     console.log(salary);
 }
 Administrador.prototype.mostrarse = function(){
-    console.log('Nombre:'+this.name+'  Salario:'+this.salary+' Bs');
+    console.log('Nombre:'+this.name+'  Salario:'+this.salary+' Bs '+this.constructor.name);
 }
 //Auxiliares -----------------
 function Auxiliar( name , salary ){
@@ -52,7 +52,7 @@ function AuxiliarPago( name , salary ){
 }
 AuxiliarPago.prototype = new Auxiliar;
 AuxiliarPago.prototype.mostrarse = function(){
-    console.log('Nombre:'+this.name+'  Salario:'+this.salary+' Bs   ');
+    console.log('Nombre:'+this.name+'  Salario:'+this.salary+' Bs   '+this.constructor.name);
 }
 function AuxiliarAdHonorem( name , salary ){
     this.name = name;
